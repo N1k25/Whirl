@@ -45,6 +45,20 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	margin: 0 auto;
 }
 
+.button--blue {
+	display: inline-block;
+	width: 139px;
+	height: 36px;
+	background-color: #0070A0;
+	color: #ffffff;
+}
+
+section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 /*----------------------------------Header------------------------------------*/
 .header-body {
 	display: flex;
@@ -92,11 +106,56 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	padding: 5px 0;
 }
 
+/*----------------------------------Everyday Tasks------------------------------------*/
+.everyday-tasks {
+	height: 584px;
+}
+
+.everyday-tasks-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.everyday-tasks-body {
+	width: 525px;
+	height: 321px;
+}
+
+.everyday-tasks-body-title {
+	font-family: Fraunces;
+	font-size: 58px;
+	line-height: 63.8px;
+	letter-spacing: 0.2px;
+}
+
+.everyday-tasks-body-text {
+	width: 380px;
+	margin: 21px 0 32px 0;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+}
+
+.everyday-tasks-body-buttons {
+	display: flex;
+	gap: 24px;
+}
+
+.everyday-tasks-button {
+	text-align: center;
+	padding: 10px 0;
+	color: #0070A0;
+}
+
 .button--blue {
-	display: inline-block;
-	width: 139px;
-	height: 36px;
-	background-color: #0070A0;
+	width: 174px;
 	color: #ffffff;
+}
+
+.everyday-tasks-container-image img{
+	width: 452px;
+	height: 422px;
 }
 
