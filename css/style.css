@@ -161,7 +161,7 @@ section{
 
 /*----------------------------------Trusted companies------------------------------------*/
 .trusted-companies {
-	margin: 39.58px 0 0 0;
+	margin: 40px 0;
 }
 
 .trusted-companies-container {
@@ -183,6 +183,52 @@ section{
 .trusted-companies-images {
 	display: flex;
 	gap: 61px;
+}
+
+/*----------------------------------Features------------------------------------*/
+.features {
+	height: 490px;
+}
+
+.features-container {
+	width: 100%;
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.features-item {
+	width: 355px;
+	height: 100%;
+	padding: 32px;
+}
+.features-item:first-child{
+	background-color: #FAEA73;
+}
+.features-item:nth-child(2){
+	background-color: #CCEFF6;
+}
+.features-item:last-child{
+	background-color: #F7CEDC;
+}
+
+.features-item-icon img{
+	width: 55px;
+	height: 55px;
+}
+
+.features-item-title {
+	font-family: Fraunces;
+	font-size: 25px;
+	line-height: 31.25px;
+	letter-spacing: 0.2px;
+	margin: 8px 0 11px 0;
+}
+
+.features-item-text {
+	line-height: 24px;
+	letter-spacing: 0.2px;
 }
 
 /*----------------------------------      ------------------------------------*/
