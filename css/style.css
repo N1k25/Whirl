@@ -159,3 +159,30 @@ section{
 	height: 422px;
 }
 
+/*----------------------------------Trusted companies------------------------------------*/
+.trusted-companies {
+	margin: 39.58px 0 0 0;
+}
+
+.trusted-companies-container {
+	width: 100%;
+	height: 96.81px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.trusted-companies-title {
+	font-size: 24px;
+	line-height: 37.5px;
+	letter-spacing: 0.2px;
+	text-align: center;
+}
+
+.trusted-companies-images {
+	display: flex;
+	gap: 61px;
+}
+
+/*----------------------------------      ------------------------------------*/
