@@ -373,4 +373,55 @@ section{
 	color: #1F1F1F;
 }
 
-/*----------------------------------     ------------------------------------*/
+/*----------------------------------What's Whirl------------------------------------*/
+.whats-whirl {
+	height: 458px;
+}
+
+.whats-whirl-container {
+	width: 100%;
+	height: 218px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.whats-whirl-title {
+	width: 300px;
+	font-family: Fraunces;
+	font-size: 42px;
+	line-height: 50.4px;
+	letter-spacing: 0.2px;
+}
+.whats-whirl-title span{
+	font-size: 41px;
+}
+
+.whats-whirl-body {
+	width: 732px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.whats-whirl-body-item {
+	width: 222.66px;
+}
+
+.whats-whirl-body-item-image{
+	width: 55px;
+	height: 55px;
+}
+
+.whats-whirl-body-item-title {
+	font-family: Fraunces;
+	font-size: 25px;
+	line-height: 31.25px;
+	letter-spacing: 0.2px;
+	margin: 8px 0 11px 0;
+}
+
+.whats-whirl-body-item-text {
+	line-height: 24px;
+	letter-spacing: 0.2px;
+}
+
+/*----------------------------------        ------------------------------------*/
