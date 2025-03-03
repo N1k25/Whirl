@@ -463,7 +463,7 @@ section{
 }
 
 .set-body-list-item {
-	background: url('../img/li.png') left no-repeat;
+	background: url('../img/li-pink.png') left no-repeat;
 	padding: 0 0 0 25px;
 	margin: 0 0 12px 0;
 }
@@ -631,4 +631,48 @@ section{
 	margin: 16px 0 0 0;
 }
 
-/*----------------------------------     ------------------------------------*/
+/*----------------------------------Get started------------------------------------*/
+.get-started {
+	height: 530px;
+}
+
+.get-started-container {
+	width: 100%;
+	height: 370px;
+	background-color: #E6F7FF;
+	padding: 64px 563px 48px 64px;
+}
+
+.get-started-title {
+	font-family: Fraunces;
+	font-size: 42px;
+	line-height: 50.4px;
+	letter-spacing: 0.2px;
+}
+
+.get-started-text {
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.2px;
+	margin: 18px 0 36px 0;
+}
+
+.get-started-button {
+	width: 174px;
+	height: 43px;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.get-started-list {
+	display: flex;
+	gap: 32px;
+	margin: 12px 0 0 0;
+}
+
+.get-started-list-item {
+	background: url('../img/li-gray.png') left no-repeat;
+	padding: 0 0 0 20px;
+}
+
+/*----------------------------------      ------------------------------------*/
